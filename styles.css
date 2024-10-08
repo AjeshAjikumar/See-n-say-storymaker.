@@ -1,0 +1,70 @@
+/* styles.css */
+body {
+    font-family: 'Comic Sans MS', sans-serif;
+    background-image: url('background.jpg');
+    background-size: cover;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #FF5733;
+    margin-bottom: 20px;
+}
+
+.buttons-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.story-button, .action-button {
+    padding: 15px 25px;
+    background-color: #FFCC00;
+    border: 2px solid #333;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.story-button:hover, .action-button:hover {
+    background-color: #FF9900;
+}
+
+#story-output {
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #333;
+}
+
+.story-controls {
+    margin-top: 20px;
+}
+
+.action-button {
+    margin: 10px;
+}
